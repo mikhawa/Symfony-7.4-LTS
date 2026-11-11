@@ -8,7 +8,6 @@ Sortie en novembre 2025, avec 3 ans de corrections de bugs (jusqu'en novembre 20
 
 https://symfony.com/releases/7.4
 
-> Ce cours a été écrit à l'origine en Symfony 6.4 (dépôt historique `Symfony-6.4-LTS`). Les différences avec la 7.4 sont listées dans la section [Incohérences entre Symfony 6.4 et Symfony 7.4](#incohérences-entre-symfony-64-et-symfony-74).
 
 https://endoflife.date/symfony
 
@@ -18,12 +17,12 @@ https://endoflife.date/symfony
 
 (Ancienne version, à mettre à jour)
 
-### à refaire https://sym6.cf2m.be/
+### à refaire https://sym74lts.cf2m.be/
 
 ---
 
 ## Menu de navigation
-- [Incohérences entre Symfony 6.4 et Symfony 7.4](#incohérences-entre-symfony-64-et-symfony-74)
+
 - [Code](https://github.com/mikhawa/Symfony-7.4-LTS)
     - [Historique de Symfony](#historique-de-symfony)
     - [Choix de Symfony](#choix-de-symfony)
@@ -824,7 +823,7 @@ Nous allons utiliser Mysql, mais vous pouvez utiliser PostgreSQL, MariaDB, SQLit
 # .env.local
 
 ###> doctrine/doctrine-bundle ###
-DATABASE_URL="mysql://root:@127.0.0.1:3306/sym_64?serverVersion=8.2.0&charset=utf8mb4"
+DATABASE_URL="mysql://root:@127.0.0.1:3306/sym_74?serverVersion=8.2.0&charset=utf8mb4"
 # DATABASE_URL="postgresql://app:!ChangeMe!@127.0.0.1:5432/app?serverVersion=15&charset=utf8"
 ###< doctrine/doctrine-bundle ###
 ```
@@ -1801,7 +1800,7 @@ class AllFixtures extends Fixture
 
 Le fichier .sql :
 
-https://raw.githubusercontent.com/mikhawa/Symfony-6.4-LTS/refs/heads/main/datas/sym_64_2024_10_03_14_19.sql
+https://raw.githubusercontent.com/mikhawa/Symfony-6.4-LTS/refs/heads/main/datas/data/sym_74_lts.sql
 
 
 ---
@@ -4132,7 +4131,7 @@ php bin/console doctrine:migrations:migrate
 
 ##### Sauvegarde de la DB dans le dossier `datas` après make:registration-form
 
-A l'adresse : `datas/sym_64_2023-08-31.sql`, n'oubliez pas d'importer ce fichier dans votre DB locale.
+A l'adresse : `data/sym_74_lts.sql`, n'oubliez pas d'importer ce fichier dans votre DB locale.
 
 
 ---
