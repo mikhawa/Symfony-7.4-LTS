@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 03 oct. 2024 à 12:18
+-- Généré le : jeu. 03 oct. 2026 à 12:18
 -- Version du serveur : 8.3.0
 -- Version de PHP : 8.2.18
 
@@ -13,11 +13,11 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 --
--- Base de données : `sym_64`
+-- Base de données : `sym_74`
 --
-DROP DATABASE IF EXISTS `sym_64`;
-CREATE DATABASE IF NOT EXISTS `sym_64` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `sym_64`;
+DROP DATABASE IF EXISTS `sym_74`;
+CREATE DATABASE IF NOT EXISTS `sym_74` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `sym_74`;
 
 -- --------------------------------------------------------
 
